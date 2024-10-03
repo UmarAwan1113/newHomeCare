@@ -1,0 +1,13 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 03 Oct 2024 06:16:20 at https://localhost:7064/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://localhost:7064/ -O1 "C:\Users\HP computer\Downloads\HomeCareNomanClient" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+06:16:26	Error: 	"Not Found" (404) at link https://localhost:7064/Images/Banner/banner5.jpg (from https://localhost:7064/)
+06:16:26	Error: 	"Not Found" (404) at link https://localhost:7064/images/hero-bg.jpg (from https://localhost:7064/css/site.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 6 seconds : 17 links scanned, 14 files written (11222498 bytes overall) [11225897 bytes received at 1870982 bytes/sec]
+(2 errors, 0 warnings, 0 messages)

@@ -1,0 +1,218 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+/*.hero {
+    background: url('../images/hero-bg.jpg') no-repeat center center;*/ /* Replace with your image */
+    /*background-size: cover;
+    padding: 100px 0;
+    color: white;
+}*/
+/* Hero Section */
+.hero {
+    background-image: url('../Images/Banner/banner5.html');
+    background-size: contain; /* Adjusted to show the entire image */
+    background-repeat: no-repeat; /* Prevents repetition */
+    background-position: center center; /* Centers the image */
+    height: 600px; /* Keeps the height at 600px */
+    width: 100%; /* Makes the hero banner stretch the full width */
+    display: flex; /* Flexbox to center content */
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    text-align: center; /* Centers the text inside */
+}
+
+.services {
+    padding: 50px 0;
+}
+
+.contact-us {
+    margin-top: 30px;
+    padding: 20px 0;
+    background-color: #f8f9fa; /* Light background */
+}
+
+.hero {
+    background: url('../images/hero-bg.html') no-repeat center center;
+    background-size: cover;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+    .card:hover {
+        transform: scale(1.05);
+    }
+
+
+/* site.css */
+
+.hero {
+    background: url('../images/hero-bg.html') no-repeat center center;
+    background-size: cover;
+    height: 60vh; /* Set height for hero section */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+    .card:hover {
+        transform: scale(1.05);
+    }
+
+footer {
+    background-color: #f8f9fa; /* Light background for footer */
+    margin-top: 20px;
+}
+
+/* Add more custom styles as needed */
+/*whatsApp*/
+/*.whatsapp-button {
+    position: fixed;*/ /* Sticks the button to the viewport */
+    /*bottom: 20px;*/ /* Distance from the bottom */
+    /*right: 20px;*/ /* Distance from the right */
+    /*z-index: 1000;*/ /* Ensures the button is on top of other elements */
+    /*background-color: #25d366;*/ /* Background color for the button */
+    /*border-radius: 50%;*/ /* Makes the button circular */
+    /*padding: 10px;*/ /* Adds padding around the icon */
+    /*box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);*/ /* Adds shadow for depth */
+/*}
+
+.whatsapp-button img {
+        width: 40px;*/ /* Set the width of the icon */
+        /*height: 40px;*/ /* Set the height of the icon */
+    /*}
+
+.whatsapp-button:hover {
+        background-color: #1ebc5c;*/ /* Darker color on hover */
+    /*}
+.whatsapp-button img {
+        width: 50px;*/ /* Set the width of the icon */
+        /*height: 50px;*/ /* Set the height of the icon */
+    /*}*/
+
+/*.whatsapp-button {
+    position: fixed;*/ /* Sticks the button to the viewport */
+    /*top: 50%;*/ /* Center vertically */
+    /*right: 20px;*/ /* Distance from the right */
+    /*transform: translateY(-50%);*/ /* Adjust for perfect vertical centering */
+    /*z-index: 1000;*/ /* Ensures the button is on top of other elements */
+    /*background-color: #25d366;*/ /* Background color for the button */
+    /*border-radius: 50%;*/ /* Makes the button circular */
+    /*padding: 10px;*/ /* Adds padding around the icon */
+    /*box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);*/ /* Adds shadow for depth */
+/*}*/
+
+    .whatsapp-button img {
+        width: 50px; /* Set the width of the icon */
+        height: 50px; /* Set the height of the icon */
+    }
+
+    /*.whatsapp-button:hover {
+        background-color: #1ebc5c;*/ /* Darker color on hover */
+    /*}*/
+.whatsapp-text {
+    color: white; /* Text color */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Make text bold */
+    display: none; /* Initially hide the text */
+}
+
+
+/*new*/
+body {
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+}
+
+.whatsapp-button {
+    position: fixed; /* Keep the button fixed on the page */
+    bottom: 20px; /* Distance from the bottom */
+    right: 20px; /* Distance from the right */
+    display: flex; /* Allows flexbox properties */
+    align-items: center; /* Center items vertically */
+    z-index: 1000; /* Ensure button is on top of other elements */
+}
+
+.whatsapp-icon {
+    width: 200px; /* Increase the width of the icon to 100px */
+    height: 200px; /* Increase the height of the icon to 100px */
+    margin-left: 10px; /* Space between text and icon */
+}
+
+
+.whatsapp-text {
+    font-size: 24px; /* Increase font size */
+    font-weight: bold; /* Make text bold */
+    color: green; /* Change text color to green */
+    overflow: hidden; /* Hide text that is not yet shown */
+    white-space: nowrap; /* Prevent text from wrapping */
+    border-right: 2px solid green; /* Cursor effect */
+    animation: typing 4s steps(12) forwards, blink-caret 0.75s step-end infinite; /* Typing effect */
+    display: none; /* Initially hide the text */
+    font-family: 'Courier New', Courier, monospace; /* Change font to a stylish typewriter style */
+}
+
+@keyframes typing {
+    from {
+        width: 0; /* Start with no width */
+    }
+
+    to {
+        width: 150px; /* Adjust according to the length of the text */
+    }
+}
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent; /* Caret is invisible */
+    }
+
+    50% {
+        border-color: green; /* Caret is visible */
+    }
+}
+
+/* Animation to show the text */
+.show-text {
+    display: inline; /* Show the text */
+}
+
+
+/*new1*/
+.card {
+    transition: transform 0.2s; /* Adds a hover effect */
+}
+
+    .card:hover {
+        transform: scale(1.05); /* Slightly enlarges the card on hover */
+    }
+
+.card-body {
+    padding: 20px; /* Ensures padding for better spacing */
+}
